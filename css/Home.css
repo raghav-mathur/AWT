@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+body{
+  font-family: 'Poppins', sans-serif !important;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  overflow-x: hidden;
+}
+.header {
+  text-align: center;
+  background-color: #3772FF;
+  padding: 20px 0;
+  font-size: 1.4rem;
+  font-weight: bolder;
+  color: aliceblue;
+  display: flex;
+  justify-content: space-between;
+  width: 100vw;
+}
+.header p {
+  margin: 0;
+  margin-left: 20px;
+}
+.logout {
+  padding: 10px;
+  background-color: #3772FF;
+  color: white;
+  cursor: pointer;
+  border-radius: 5px;
+  border: none;
+}
+.logout:hover {
+  color: grey;
+}
+.buttons {
+  background-color: whitesmoke;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.clicks {
+  padding: 30px;
+  margin: 20px;
+  border-radius: 10px;
+}
+.clicks button {
+  padding: 10px;
+  border-radius: 5px;
+  font-size: 1.1rem;
+  color: white;
+  background-color: #3772FF;
+  border: none;
+  box-shadow: 0px 0px 10px white;
+  cursor: pointer;
+  margin: 5px;
+}
+.clicks button:hover {
+  background-color: #3772FF;
+}
+img {
+  max-width: 306px;
+  max-height: 220px;
+  object-fit: contain;
+}
+.images {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  align-items: center;
+  width: 60vw;
+  margin-top: -70px;
+}
+.sports {
+  text-align: center;
+  font-size: 1.3rem;
+  font-weight: bolder;
+  color: #3772FF;
+  margin-bottom: 60px;
+}
+.foot {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #3772FF;
+  font-size: 1.2rem;
+  color: white;
+  position: fixed;
+  bottom: 0;
+  height: 80px;
+  width: 100vw;
+}
+
+.image{
+    width: 250px;
+    height: 250px;
+}
+
+.im1{
+  background: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR_CgvBgvfzPFqu5Zvy5LxMtFe-0srT53FpqQ&usqp=CAU');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+.im2{
+  background: url('https://cdn.images.express.co.uk/img/dynamic/67/590x/Man-Utd-news-Cristiano-Ronaldo-Young-Boys-1532102.jpg?r=1638801514477');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+.im3{
+  background: url('https://thumbor.forbes.com/thumbor/fit-in/416x416/filters%3Aformat%28jpg%29/https%3A%2F%2Fspecials-images.forbesimg.com%2Fimageserve%2F5ec595d45f39760007b05c07%2F0x0.jpg%3Fbackground%3D000000%26cropX1%3D989%26cropX2%3D2480%26cropY1%3D74%26cropY2%3D1564');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+.im4{
+  margin-top: 20px;
+  background: url('https://m.cricbuzz.com/a/img/v1/192x192/i1/c170661/virat-kohli.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+.im5{
+  margin-top: 20px;
+  background: url('data:image/jpeg;base64,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');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+
+.form input {
+  margin:  20px 0;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 100px;
+}
